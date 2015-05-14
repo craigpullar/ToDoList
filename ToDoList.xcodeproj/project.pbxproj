@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481AA0461939112200B7C9B3 /* XYZToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 481AA0451939112200B7C9B3 /* XYZToDoItem.m */; };
+		481AA0491939113700B7C9B3 /* XYZProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 481AA0481939113700B7C9B3 /* XYZProject.m */; };
 		48C499151932A81E000DDD80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C499141932A81E000DDD80 /* Foundation.framework */; };
 		48C499171932A81E000DDD80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C499161932A81E000DDD80 /* CoreGraphics.framework */; };
 		48C499191932A81E000DDD80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C499181932A81E000DDD80 /* UIKit.framework */; };
@@ -32,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		481AA0441939112200B7C9B3 /* XYZToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoItem.h; sourceTree = "<group>"; };
+		481AA0451939112200B7C9B3 /* XYZToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoItem.m; sourceTree = "<group>"; };
+		481AA0471939113700B7C9B3 /* XYZProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZProject.h; sourceTree = "<group>"; };
+		481AA0481939113700B7C9B3 /* XYZProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZProject.m; sourceTree = "<group>"; };
 		48C499111932A81E000DDD80 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C499141932A81E000DDD80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		48C499161932A81E000DDD80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +117,10 @@
 				48C499241932A81E000DDD80 /* AppDelegate.m */,
 				48C499261932A81E000DDD80 /* Images.xcassets */,
 				48C4991B1932A81E000DDD80 /* Supporting Files */,
+				481AA0441939112200B7C9B3 /* XYZToDoItem.h */,
+				481AA0451939112200B7C9B3 /* XYZToDoItem.m */,
+				481AA0471939113700B7C9B3 /* XYZProject.h */,
+				481AA0481939113700B7C9B3 /* XYZProject.m */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -239,6 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481AA0461939112200B7C9B3 /* XYZToDoItem.m in Sources */,
+				481AA0491939113700B7C9B3 /* XYZProject.m in Sources */,
 				48C499251932A81E000DDD80 /* AppDelegate.m in Sources */,
 				48C499211932A81E000DDD80 /* main.m in Sources */,
 			);
@@ -437,6 +449,7 @@
 				48C4993F1932A81E000DDD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48C499401932A81E000DDD80 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +458,7 @@
 				48C499421932A81E000DDD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
